@@ -2,7 +2,7 @@
 Operating Systems for Aldec TySOM boards
 
 # Table of Content
-1. [How to build](#how_to_build)
+- [How to build](#how_to_build)
 
 <a name="how_to_build"/>
 
