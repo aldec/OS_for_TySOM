@@ -1,0 +1,6 @@
+uenvcmd=run aldec_sdboot
+kernel_image=Image
+devicetree_image=system.dtb
+
+bootargs=console=ttyPS0,115200n8 earlycon root=/dev/mmcblk1p2 rw  rootwait clk_ignore_unused cpuidle.off=1
+aldec_sdboot=echo Boot Linux... && fatload mmc 1:1 0x4000000 ${kernel_image} && fatload mmc 1:1 0x2000000 ${devicetree_image} && booti 0x4000000 - 0x2000000
