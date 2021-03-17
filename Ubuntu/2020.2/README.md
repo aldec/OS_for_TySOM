@@ -62,7 +62,8 @@ Where *BOARD_NAME*:
 ```
 petalinux-config
 ```
-Use *Image Packaging Configuration -> Root filesystem-> SD card*
+Use *Image Packaging Configuration -> Root filesystem-> SD card*.
+
 Exit the configuration tool and save.
 
 5. Build PetaLinux project
@@ -76,9 +77,11 @@ petalinux-package --boot --force --fpga --u-boot
 ```
 
 7. Prepare SD card
+
 Please follow the instructions on the website for prepare sd_card: [How to format SD card for SD boot](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842385/How+to+format+SD+card+for+SD+boot)
 
 8. boot partition
+
 Copy the following set of files to boot partition:
 - BOOT.BIN (images/linux/BOOT.BIN)
 - boot.scr (images/linux/boot.scr)
@@ -119,5 +122,7 @@ cp -rf <PetaLinux_project>/images/linux/ramdisk/lib/modules .
 ```
 
 12. Final steps
+
 Prepare your device for SD card boot (check jumper settings). Insert the SD card and power on your Zynq/ZynqMP.
+
 Log into the Ubuntu OS (User: ubuntu Password: temppwd)
