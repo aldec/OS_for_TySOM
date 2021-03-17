@@ -9,4 +9,7 @@ Current list of supported OSes:
   - 2018.3
     - TySOM-3-ZU7EV
     - TySOM-3A-ZU19EG
+  - 2020.2
+    - TySOM-3-ZU7EV
+    - TySOM-3A-ZU19EG
 
