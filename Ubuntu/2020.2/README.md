@@ -100,7 +100,9 @@ chmod 755 <sd_card_path>/root/
 ```
 
 11. (optional) If you want to use HDMI, you have to extract *lib/modules/5.4.0-xilinx-v2020.2* from the Petalinux project and copy onto the root partition.
+
   a. Unpack images
+
 ```
 cd <PetaLinux_project>/images/linux
 dd bs=64 skip=1 if=rootfs.cpio.gz.u-boot of=ramdisk.cpio.gz
