@@ -2,7 +2,7 @@
 Operating Systems for Aldec TySOM boards
 
 # Table of Content
-1. [How to build](#how_to_build)
+- [How to build](#how_to_build)
 
 <a name="how_to_build"/>
 
@@ -22,7 +22,7 @@ cd Ubuntu_Desktop_Release_2018_3/Ready_to_test_images
 su
 dd if=ZCU102_UbuntuDesktop_2018_3.img of=/dev/sdd status=progress
 ```
-Note: Use a proper apth to SD card.
+Note: Use a proper path to SD card.
 
 2. PetaLinux
 
@@ -30,7 +30,7 @@ Note: Use a proper apth to SD card.
     - [TySOM-3-ZU7EV.bsp](https://github.com/aldec/TySOM-3-ZU7EV/blob/master/Petalinux_BSP/TySOM-3-ZU7EV/2018.3/TySOM-3-ZU7EV.bsp)
     - [TySOM-3A-ZU19EG](https://github.com/aldec/TySOM-3A-ZU19EG/blob/master/Petalinux_BSP/TySOM-3A-ZU19EG/2018.3/TySOM-3A-ZU19EG.bsp)
 
-  - source <Path to PetaLinux>/2018.3/settings.sh <Path to PetaLinux>/2018.3
+  - source \<Path to PetaLinux\>/2018.3/settings.sh \<Path to PetaLinux\>/2018.3
 
   - Create a new project in PetaLinux
 
