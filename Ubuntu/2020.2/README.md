@@ -125,4 +125,10 @@ cp -rf <PetaLinux_project>/images/linux/ramdisk/lib/modules .
 
 Prepare your device for SD card boot (check jumper settings). Insert the SD card and power on your Zynq/ZynqMP.
 
-Log into the Ubuntu OS (User: ubuntu Password: temppwd)
+Log into the Ubuntu OS by UART(User: ubuntu Password: temppwd). Linux Minicom tool can be used with the following parameters:
+- Port: /dev/USB0
+- Baud Rate: 115200
+- Parity: none
+- Bits: 8
+- Stopbits: 1
+- Flow control: none
